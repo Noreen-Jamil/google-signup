@@ -1,5 +1,4 @@
-
-    *{
+  *{
   box-sizing:border-box;
 }
 
@@ -50,12 +49,7 @@ input:focus{
   
 }
 
-input:invalid {
-  border:2px solid #D00F15 ;
-}
-input:valid {
-  border:2px solid #19B11E ;
-}
+
 form>p{
   font-size:13px;
  font-family: 'Roboto', sans-serif;
