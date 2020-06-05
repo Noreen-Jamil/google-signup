@@ -6,22 +6,22 @@
  <script src="https://kit.fontawesome.com/9bb692fde3.js" crossorigin="anonymous"></script>
  <link href="style.css" rel="stylesheet">
   </head>
-   <body>
+  <body>
     <section>
       <img src="google-logo.jpg" alt="goole logo">
       <h1>Create your Google Account</h1>
       <div>
         <form>
-          <input type="text" name="first-name" placeholder="First Name"  required>
-          <input type="text" name="last-name" placeholder="Last Name" required>
+          <input type="text" name="first-name" placeholder="First Name" maxlength="15"  autofocus required>
+          <input type="text" name="last-name" placeholder="Last Name" maxlength="15" required>
           <div id="username">
-            <input type="email" name="email" placeholder="Username" required>
+            <input type="email" name="email" placeholder="Username" maxlength="30"required>
             <p>@gmail.com</p>
           </div>
           <p>You can use letters, numbers & periods</p>
           <p><a href="#"><strong>Use my current email address instead</strong></a></p>
-          <input type="password" name="password" placeholder="Password"required >
-          <input type="password" name="confirm-password" placeholder="Confirm" required><i id="hidden" class="far fa-eye-slash"></i>
+          <input type="password" name="password" placeholder="Password" maxlength="15" minlength="3" required >
+          <input type="password" name="confirm-password" placeholder="Confirm" maxlength="15" minlength="3"required><i id="hidden" class="far fa-eye-slash"></i>
           <p>Use 8 or more characters with a mix of letters, numbers & symbols</p>
           <div id="sign-in-div">
             <p ><a href="#"><strong>Sign in instead</strong></a></p>
