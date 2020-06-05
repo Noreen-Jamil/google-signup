@@ -1,4 +1,4 @@
-     *{
+   *{
   box-sizing:border-box;
 }
 
@@ -35,16 +35,10 @@ form>input{
   border-radius:5px;
   border:1px solid #dcdee2;
   margin:2% 3% 0 0;
-  width:140px;
+  width:170px;
   font-family: 'Noto Sans', sans-serif;
-}
 
- 
-input:focus{
-  outline:none;
-  
 }
-
 
 form>p{
   font-size:13px;
@@ -53,7 +47,7 @@ form>p{
 }
 #username{
   border:1px solid black;
-  width:300px;
+  width:360px;
   border-radius:5px;
   padding:1.5vh;
   border:1px solid #dcdee2;
@@ -78,8 +72,24 @@ strong{
   font-family: 'Noto Sans', sans-serif;
 }
 input[type='password']{
-  width:140px;
+  width:155px;
+  
 
+}
+input:focus{
+  border-color:#1a73e8;
+  border-width: 1.5px;
+  outline:none;
+}
+a:focus{
+  outline:none;
+ background-color: #8dbaf4;
+ padding:5px;
+}
+button:focus{
+  outline:none;
+ background-color:#1159b9;
+ 
 }
 i#hidden{
   font-size:20px;
